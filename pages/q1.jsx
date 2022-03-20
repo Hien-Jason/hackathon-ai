@@ -10,6 +10,10 @@ export default function QuestionOne () {
                 <p></p>
                 <input type="submit" value="Submit"/>    
             </form>
+    			
+            <Link href='q2'>
+				<a className='badge badge-primary'>To Next Page</a>
+			</Link>
         </div>
     )
 }
